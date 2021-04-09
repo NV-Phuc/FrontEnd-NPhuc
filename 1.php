@@ -1,2 +1,2 @@
 <?php
-require("1.html")
+require("1.html");
