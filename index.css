@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+.line{
+    background-color: red;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    right: 0;
+    cursor: pointer;
+    transition: left 0.5s;
+}
+.box:hover .line{
+    left: 0px;
+}
+
+
+.box1{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.line1{
+    background-color: red;
+    height:  150px;
+    width: 5px;
+    position: absolute;
+    left: 145px;
+    right: 0;
+    top: 150px;
+    bottom: 0;
+    cursor: pointer;
+    transition: top 0.5s;
+
+}
+.box1:hover .line1{
+    top: 0px;
+    
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+
+.box2{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+}
+    
+.line21{
+    background-color: red;
+    height: 5px;
+    width: 150px;
+    position: absolute;
+    top: auto;
+	left: auto;
+	right: 150px;
+	bottom: auto;
+    cursor: pointer;
+    transition: right 0.5s;
+    
+}
+.box2:hover .line21{
+    right: 0px;
+}
+.line22{
+    background-color: red;
+    height:  150px;
+    width: 5px;
+    position: absolute;
+    transform: translateX(0) translateY(-150px);
+    left: 145px;
+    right: auto;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    transition: top 0.5s;
+
+}
+.box2:hover .line22{
+    top: 150px;
+    transition-delay: 0.5s;
+}
+
+.line23{
+    background-color: red;
+    height: 5px;
+    width: 150px;
+    position: absolute;
+    top: 145px;
+	left: 150px;
+	right: 0;
+	bottom: 0;
+    cursor: pointer;
+    transition: left 0.5s;
+    
+}
+.box2:hover .line23{
+    left: 0px;
+    transition-delay: 1s;
+}
+
+.line24{
+    background-color: red;
+    height:  150px;
+    width: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+    bottom: 0;
+    cursor: pointer;
+    transition: top 0.5s;
+
+}
+.box2:hover .line24{
+    top: 0px;
+    transition-delay: 1.5s;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+.box3{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-top: 20px;
+    /* overflow: hidden; */
+}
+.line31{
+    background-color: red;
+    height: 5px;
+    width: 150px;
+    position: absolute;
+    cursor: pointer;
+    top: 75px;
+    left:75px;
+    bottom: 0;
+    right: 0;
+    transform: translate(75px, 75px) rotate(0deg) ;
+    transform-origin: 0 -100%;
+    transition: top 0.5s;
+   
+}
+.box3:hover line31{
+    top: 0;
+    transform: translateX(0px) translateY(0px) rotate(0deg);
+    
+
+}
